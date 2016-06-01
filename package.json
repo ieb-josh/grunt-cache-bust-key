@@ -1,7 +1,7 @@
 {
   "name": "grunt-cache-bust-key",
   "description": "Bust static assets from the cache using content hashing",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "Josh Brennan <josh.brennan@iebtrading.com>",
   "homepage": "https://github.com/ieb-josh/grunt-cache-bust-key",
   "contributors": [
@@ -25,8 +25,7 @@
     "grunt-contrib-jshint": "^1.0.0",
     "grunt-contrib-nodeunit": "^1.0.0",
     "grunt-contrib-watch": "^1.0.0",
-    "jit-grunt": "^0.10.0",
-    "lodash": "^4.13.1"
+    "jit-grunt": "^0.10.0"
   },
   "peerDependencies": {
     "grunt": ">=0.4.0"
@@ -37,5 +36,8 @@
     "cache",
     "bust",
     "bust assets"
-  ]
+  ],
+  "dependencies": {
+    "lodash": "^4.13.1"
+  }
 }
